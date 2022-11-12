@@ -19,7 +19,7 @@ def home():
         else:
             outcome = 'Air Tidak Layak Konsumsi'
         return render_template('index.html', result=outcome)
-    return render_template('index.html', result='Something went wrong')
+    return render_template('index.html')
 
 # run application
 if __name__ == "__main__":
